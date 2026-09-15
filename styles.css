@@ -1,0 +1,71 @@
+/* Custom styles for Notification Flow Builder */
+
+.content-auto {
+    content-visibility: auto;
+}
+
+/* Step indicator states */
+.step-active {
+    border-color: #2563eb;
+    background-color: #2563eb;
+    color: white;
+}
+
+.step-completed {
+    border-color: #10b981;
+    background-color: #10b981;
+    color: white;
+}
+
+.step-upcoming {
+    border-color: #d1d5db;
+    background-color: white;
+    color: #6b7280;
+}
+
+/* JSON syntax highlighting for live payload preview */
+.json-key {
+    color: #f472b6;
+}
+
+.json-string {
+    color: #4ade80;
+}
+
+.json-number {
+    color: #60a5fa;
+}
+
+.json-boolean {
+    color: #facc15;
+}
+
+/* Smooth transitions for interactive elements */
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #2563eb;
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Scrollbar styling for dark mode panels */
+#activityLog::-webkit-scrollbar,
+#payloadPreview::-webkit-scrollbar {
+    width: 6px;
+}
+
+#activityLog::-webkit-scrollbar-track,
+#payloadPreview::-webkit-scrollbar-track {
+    background: #1e293b;
+    border-radius: 3px;
+}
+
+#activityLog::-webkit-scrollbar-thumb,
+#payloadPreview::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 3px;
+}
+
+#activityLog::-webkit-scrollbar-thumb:hover,
+#payloadPreview::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+}
